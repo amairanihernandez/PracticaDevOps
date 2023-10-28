@@ -1,0 +1,38 @@
+/* public/css/styles.css */
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#display {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #f0f0f0;
+}
+
+.number {
+    background-color: #d3d3d3;
+}
+
+button:hover {
+    background-color: #c0c0c0;
+}
